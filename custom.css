@@ -26,6 +26,24 @@ header aside {
     padding: 20px 20px 0 20px;
     margin-top: 35px
 }
+ 
+.search{
+     float: left; 
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E30C91;
+    border: 1px solid #3EC6D0;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    border: 1px solid #DCD5E1;
+}
 
 .clear{
     clear: both;   
