@@ -1,0 +1,36 @@
+header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+body{
+    width: 1050px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;   
+}
+
+#leftsidebar{
+    float: left;   
+}
+
+#rightsidebar{
+    float: right;
+}
+
+
+
+
+footer{
+    height: 60px;
+    background: linear-gradient(#75A5DB, #3336D5);
+    background: -webkit-linear-gradient(#75A5DB, #3336D5);
+    background: -o-linear-gradient(#75A5DB, #3336D5);
+    background: -moz-linear-gradient(#75A5DB, #3336D5);
+    padding: 10px 35%;
+    margin-top: 15px
+}
