@@ -44,21 +44,53 @@ header aside {
     font-size: 15px;
     border: 1px solid #C1A4D6;
 }
-nav{
-    height: 50px;
-    background: linear-gradient(#A1B4F1, #581BA8);
-    background: -webkit-linear-gradient(#A1B4F1, #581BA8);
-    background: -o-linear-gradient(#A1B4F1, #581BA8);
-    background: -moz-linear-gradient(#A1B4F1, #581BA8);
+.clear{
+    clear: both;   
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#E4E9F0, #6F0A97);
+    background: -webkit-linear-gradient(#E5E7EB, #6F0A97);
+    background: -o-linear-gradient(#EDEFF1, #6F0A97);
+    background: -moz-linear-gradient(#DADEE4, #6F0A97);
     padding: 7px 0;
 }
-nav ul li{
-     float: left;
-    padding: 0 30px;
-    height: 30px;
-    border-right: 1px solid #09C009;
+ul{
     list-style: none;   
 }
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #E71287;
+}
+
+#menu ul li:last-child{
+    border-right: none;   
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #FCF8F8;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F6F5F7;
+}
+
+
 #introduction{
     background: linear-gradient(#9ED4D6, #47B7DA); 
     background: -webkit-linear-gradient(#9ED4D6, #47B7DA); 
@@ -111,13 +143,6 @@ nav ul li{
     -ms-transition: font-size 0.3s ease;
     transition: font-size 0.3s ease;
 }
-
-
-
-.clear{
-    clear: both;   
-}
-
 #leftsidebar{
     float: left;   
 }
