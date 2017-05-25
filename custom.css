@@ -78,8 +78,9 @@ nav ul li{
     text-align: justify;
 }
 .sidebar{
-    height: 500px;
-    width: 450px;
+    margin-top: 35px;
+    height: 450px;
+    width: 400px;
     border: 1px solid #BAF46F;
     border-radius: 20px;
     padding: 10px 30px;
